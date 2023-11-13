@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+h1, input, button, p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    row-gap: 30px; 
+    margin-top: 60px;
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.birthday-input{
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+    padding-left: 9px;
+    border: 1px solid black;
+}
+
+.calculate{
+    font-size: 14px;
+    width: 100px;
+    background-color: white;
+    border: 1px solid black;
+}
